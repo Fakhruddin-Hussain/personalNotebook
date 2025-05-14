@@ -4,7 +4,8 @@ const router = express.Router();
 router.get('/', (req,res)=>{
     obj={
         a: "This is",
-        number: 34
+        number: 34,
+        third:"third item"
     }
     res.json(obj)
 }); 
